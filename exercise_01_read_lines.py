@@ -1,6 +1,3 @@
-# Ejercicio 1 - Leer líneas de un archivo
-
-
 def read_lines(filename):
     """
     Lee un archivo de texto y retorna una lista con sus líneas.
