@@ -1,6 +1,3 @@
-# Ejercicio 5 - CSV a lista de diccionarios
-
-
 def csv_to_dict(filename):
     """
     Lee un archivo CSV con header "name,age,city" y retorna una lista de
