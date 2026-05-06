@@ -34,4 +34,13 @@ def grades_stats(filename):
             "Cami": (10.0, 10.0, 10.0),
         }
     """
-    pass  # Reemplazar con tu implementación
+    with open(filename, 'r') as f:
+        result = {}
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            nombre, notas_str = line.split(':')
+            notas = [float(n) for n in notas_str.split(',')]
+            result[nombre] = ( sum(notas) / len(notas), max(notas), min(notas) )
+        return result
