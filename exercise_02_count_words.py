@@ -1,6 +1,3 @@
-# Ejercicio 2 - Contar palabras en un archivo
-
-
 def count_words(filename):
     """
     Lee un archivo y retorna un diccionario palabra -> cantidad.
