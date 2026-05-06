@@ -1,6 +1,3 @@
-# Ejercicio 6 - Estadísticas de notas por estudiante
-
-
 def grades_stats(filename):
     """
     Lee un archivo donde cada línea tiene el formato:
