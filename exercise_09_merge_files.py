@@ -1,6 +1,3 @@
-# Ejercicio 9 - Combinar dos archivos
-
-
 def merge_files(file1, file2, output):
     """
     Lee file1 y file2 y escribe su concatenación (primero file1, luego
