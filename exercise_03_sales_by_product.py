@@ -1,6 +1,3 @@
-# Ejercicio 3 - Ventas por producto
-
-
 def read_sales(filename):
     """
     Lee un archivo con ventas en formato "producto:valor;producto:valor;..."
