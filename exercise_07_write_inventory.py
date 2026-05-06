@@ -1,6 +1,3 @@
-# Ejercicio 7 - Escribir un inventario ordenado
-
-
 def write_inventory(filename, inventory):
     """
     Escribe el inventario en un archivo, una línea por item, ordenadas
