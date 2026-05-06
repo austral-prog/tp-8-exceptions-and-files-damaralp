@@ -1,6 +1,3 @@
-# Ejercicio 10 - Parser de archivos de log
-
-
 def parse_log(filename):
     """
     Lee un archivo de log donde cada línea tiene el formato:
@@ -65,4 +62,3 @@ def parse_log(filename):
             logs[nivel].append(mensaje)
 
     return logs
-
